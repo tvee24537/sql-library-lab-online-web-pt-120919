@@ -8,12 +8,12 @@ INSERT INTO authors (name) VALUES
 ("George R. R. Martin"), ("Second Author");
 
 INSERT INTO books (title, year, series_id) VALUES
-("The Fellowship of the Ring", 1954, 1),
-("The Two Towers", 1954, 1),
-("The Return of the King", 1954, 1),
-("The Sorcerer's Stone", 1997, 2),
-("The Chamber of Secrets", 1998, 2),
-("The Goblet of Fire", 2000, 2);
+("Game of Thrones", 1996, 1), 
+("A Clash of Kings", 1998, 1), 
+("A Storm of Swords", 2000, 1), 
+("First Book", 2002, 2), 
+("Second Book", 2003, 2), 
+("Third Book", 2005, 2);
 
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
 ("Harry Potter", "The Boy Who Lived", "Wizard", 2, 2),
