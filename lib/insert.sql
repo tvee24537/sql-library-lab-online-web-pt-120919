@@ -5,7 +5,7 @@ INSERT INTO subgenres (name) VALUES
 ("medieval"), ("space opera");
 
 INSERT INTO authors (name) VALUES
-("J.R.R. Tolkien"), ("J.K. Rowling");
+("George R. R. Martin"), ("Second Author");
 
 INSERT INTO books (title, year, series_id) VALUES
 ("The Fellowship of the Ring", 1954, 1),
