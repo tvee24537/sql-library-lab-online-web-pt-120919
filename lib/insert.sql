@@ -16,14 +16,11 @@ INSERT INTO books (title, year, series_id) VALUES
 ("Third Book", 2005, 2);
 
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
-("Harry Potter", "The Boy Who Lived", "Wizard", 2, 2),
-("Hagrid", "The Gentle Giant", "Giant", 2, 2),
-("Fluffy", "A bit of music puts em right to sleep", "Three-Headed Dog", 2, 2),
-("Gilderoy Lockhart", "Me!", "Wizard", 2, 2),
-("Frodo Baggins", "The Bravest Hobbit", "Hobbit", 1, 1),
-("Saruman", "The White Wizard", "Wizard", 1, 1),
-("Lurtz", "An Army Worthy of Mordor", "Uruk-hai", 1, 1),
-("Shelob", "She likes to feed", "Giant Spider", 1, 1);
+("Character One", "motto one", "cylon", 2), 
+("Character Two", "motto two", "human", 2), 
+("Character Three", "motto three", "cylon", 2), 
+("Character Four", "motto four", "cylon", 2);
+
 
 INSERT INTO character_books (character_id, book_id) VALUES
 (1, 4),
